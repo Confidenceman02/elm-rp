@@ -1,8 +1,5 @@
 {
     "type": "application",
-    "summary": "helpful summary of your project, less than 80 characters",
-    "repository": "https://github.com/user/project.git",
-    "license": "BSD3",
     "source-directories": [
         "app"
     ],
@@ -11,10 +8,12 @@
         "direct": {
             "elm/browser": "1.0.0",
             "elm/core": "1.0.0",
-            "elm/html": "1.0.0"
+            "elm/html": "1.0.0",
+            "mdgriffith/elm-style-animation": "4.0.0"
         },
         "indirect": {
             "elm/json": "1.0.0",
+            "elm/svg": "1.0.1",
             "elm/time": "1.0.0",
             "elm/url": "1.0.0",
             "elm/virtual-dom": "1.0.0"
